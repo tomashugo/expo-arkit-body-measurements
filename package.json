@@ -1,0 +1,40 @@
+{
+  "name": "expo-arkit-body-measurements",
+  "version": "1.0.0",
+  "description": "Expo module for ARKit body measurements using LiDAR",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "source": "src/index.ts",
+  "expo": {
+    "module": {
+      "ios": {
+        "sourceDir": "./ios"
+      }
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf build",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "arkit",
+    "body-tracking",
+    "measurements"
+  ],
+  "repository": "https://github.com/expo/expo",
+  "author": "roupinha",
+  "license": "MIT",
+  "dependencies": {
+    "expo-modules-core": "*"
+  },
+  "devDependencies": {
+    "expo-module-scripts": "^3.0.0"
+  },
+  "peerDependencies": {
+    "expo": "*"
+  }
+}
+

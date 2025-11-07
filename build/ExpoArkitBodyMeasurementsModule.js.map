@@ -1,0 +1,1 @@
+{"version":3,"file":"ExpoArkitBodyMeasurementsModule.js","sourceRoot":"","sources":["../src/ExpoArkitBodyMeasurementsModule.ts"],"names":[],"mappings":";;AAAA,+CAA6C;AAE7C,kBAAe,4BAAa,CAAC,+BAA+B,IAAI,IAAI,CAAC","sourcesContent":["import { NativeModules } from 'react-native';\n\nexport default NativeModules.ExpoArkitBodyMeasurementsModule || null;\n\n"]}
